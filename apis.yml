@@ -1,7 +1,26 @@
 aid: arda-therapeutics
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/arda-therapeutics.png
 name: Arda Therapeutics
-description: Arda Therapeutics is a company surfaced as a portfolio company of a16z, gv and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Arda Therapeutics is a San Carlos, California biotech company founded in
+  2021 that develops targeted cell depletion therapies for chronic disease. Rather than
+  modulating the proteins that pathogenic cells produce, Arda uses a single-cell sequencing
+  and computational discovery engine to map disease-specific cell states, identify surface
+  markers on harmful cells, and design targeted biologics that selectively deplete them
+  across fibrotic, autoimmune, and metabolic conditions. Backed by a $43M Series A led
+  by a16z Bio + Health with GV, Two Sigma Ventures, Eli Lilly and others. This API
+  Evangelist profile tracks the company's public developer and web surface; Arda currently
+  publishes a corporate marketing site with no public developer API.
 url: https://raw.githubusercontent.com/api-evangelist/arda-therapeutics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,11 +29,19 @@ x-backed-by:
 - gv
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-headquarters: 1030 Brittan Ave, San Carlos, CA 94070
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Biotechnology
+- Therapeutics
+- Cell Depletion
+- Single-Cell
+- Drug Discovery
+- Life Sciences
+- Healthcare
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,4 +50,23 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://ardatherapeutics.com
+  url: https://www.ardatx.com/
+- type: About
+  url: https://www.ardatx.com/science
+- type: Team
+  url: https://www.ardatx.com/team
+- type: News
+  url: https://www.ardatx.com/news
+- type: Careers
+  url: https://www.ardatx.com/careers
+- type: LinkedIn
+  url: https://www.linkedin.com/company/arda-therapeutics/
+- type: Twitter
+  url: https://twitter.com/Arda_Tx
+- type: DomainSecurity
+  url: security/arda-therapeutics-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
